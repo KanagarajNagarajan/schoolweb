@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.3s;
+    line-height: 27px;
+}
+
+:root {
+    --primarycolour: #1c1b3b;
+    --headingcolour: #18253A;
+    --subheadingcolour: #333333;
+    --paragraphcolour: #525252;
+    --fontfamiley: "Poppins", sans-serif;
+    --border-bottom: 5px solid #c50227;
+}
+
+.navbar {
+    background-color: var(--primarycolour);
+
+}
+
+.nav-item a {
+    color: #fff;
+    font-family: var(--fontfamiley);
+    font-weight: 600;
+}
+
+.nav-item a:hover {
+    color: #fff;
+    border-bottom: 5px solid #c50227;
+}
+
+.dropdown-menu a {
+    color: var(--subheadingcolour);
+}
+
+.d-flex .btn {
+    background-color: #c50227;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0px;
+}
+
+.navbar-brand img {
+    width: 200px;
+    /* background-color: white; */
+}
+
+.about .content {
+    padding-left: 25px;
+}
+
+.about .content h5 {
+    font-family: var(--fontfamiley);
+    color: var(--headingcolour);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.about .content p {
+    font-family: var(--fontfamiley);
+    color: var(--subheadingcolour);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.about .image1 img {
+    width: 100%;
+}
+
+.content2 h5 {
+    text-align: center;
+    padding-bottom: 10px;
+    border-left: 2px solid #c50227;
+    font-family: var(--fontfamiley);
+    font-weight: 600;
+    color: var(--headingcolour);
+}
+
+.content2 p {
+    color: var(--paragraphcolour);
+    font-family: var(--fontfamiley);
+}
+
+.applysection h5 {
+    color: var(--headingcolour);
+    font-weight: 600;
+    font-family: var(--fontfamiley);
+}
+
+.applysection h6 {
+    color: var(--subheadingcolour);
+    font-weight: 400;
+    font-family: var(--fontfamiley);
+}
+
+.applysection p {
+    padding-top: 20px;
+    font-family: var(--fontfamiley);
+
+}
+
+.applysection img {
+    width: 100%;
+}
+
+.ourschool {
+    background-color: var(--primarycolour);
+}
+
+.ourschool h5 {
+    padding-top: 30px;
+    font-family: var(--fontfamiley);
+    color: #3db166;
+}
+
+.ourschool p {
+    font-family: var(--fontfamiley);
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.teamsection {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./image/testimonials-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center;
+    /* height: 65vh; */
+    width: 100%;
+    align-items: center;
+}
+
+.carousel-inner img {
+    width: 15%;
+    border-radius: 300px;
+}
+
+.carousel-inner h5 {
+    font-size: 22px;
+    color: #fff;
+}
+
+.carousel-inner h6 {
+    font-size: 16px;
+    color: #fff;
+}
+
+.carousel-inner p {
+    text-align: center;
+    color: #fff;
+}
+
+.specification-background-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.specification .row>* {
+    padding: 0px;
+}
+
+.specification1 {
+    background-color: #4c1d13;
+    background-size: cover;
+    background-position: center;
+    min-height: 320px;
+}
+
+.specification2 {
+    background-color: #1C2E51;
+    background-size: cover;
+    background-position: center;
+    min-height: 320px;
+}
+
+.specification h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #ffffff;
+    font-family: var(--fontfamiley);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.specification p {
+    font-size: 15px;
+    color: #d4e1f8;
+    font-family: var(--fontfamiley);
+    text-align: center;
+}
+
+.school-logo img {
+    width: 250px;
+}
+
+.school-logo p {
+    color: #fff;
+    font-family: var(--fontfamiley);
+}
+
+.footer {
+    background-color: var(--primarycolour);
+}
+
+.useful-links a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--fontfamiley);
+}
+
+.useful-links h6 {
+    color: #fff;
+    font-family: var(--fontfamiley);
+    border-bottom: 2px solid #c50227;
+    padding-bottom: 15px;
+}
